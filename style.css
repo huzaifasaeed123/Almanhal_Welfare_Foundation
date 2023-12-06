@@ -1,0 +1,126 @@
+.Main_pakageitem{
+    background-color: rgba(207, 190, 190, 0.5);
+}
+.packages-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: calc(25% - 20px);
+    list-style-type: none;
+    margin: 20px 5%;
+}
+.packeage-item {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    padding: 10px;
+    flex-wrap: wrap;
+    width: 300px;
+}
+.packeage-item .package-title{
+    display: flex;
+    flex-direction: column;
+}
+.img-wrap{
+    margin-right: 7px;
+    padding-right: 7px;
+}
+.clr-lightblue-text{
+    color: #0060AE;
+    font-weight: 800;
+    font-size: 25px;
+}
+.package-title span{
+    font-size: 15px;
+    font-weight: 700;
+}
+.headingMain{
+    text-align: center;
+    padding: 15px;
+}
+.card{
+    height: 400px;
+    width: 300px;
+    margin: 15px 15px;
+    border: 0px solid black;
+    box-shadow: 5px 5px 10px grey;
+    border-radius: 5%;
+}
+.card img{
+    border-radius: 5%;
+    height: 400px;
+    width: 300px;
+}
+.card h2{
+    margin: 10px 10px;
+}
+.MainEvents{
+    margin: 20px 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.Main_donation_card{
+    background-color: rgba(207, 190, 190, 0.5);
+
+}
+.donation{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0px 10%;
+}
+.donatio_card{
+    background: linear-gradient(180deg,#003c73 0%,rgba(0,96,174,0.8) 103.41%);
+    height: 360px;
+    width: 380px;
+    padding: 28px 48px;
+    border-radius: 5%;
+    margin:10px;
+    margin-bottom: 50px;
+    box-shadow: 5px 5px 10px grey;
+
+}
+
+.donatio_card h1{
+    color: white;
+
+}
+.donatio_card p{
+    color: white;
+}
+.donatio_card button{
+    width: 280px;
+    height: 50px;
+    background-color: #DC0505;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    border-color: #DC0505;
+}
+.Main_about_Us{
+    background-color: rgba(242, 234, 234, 0.5);
+}
+.about_us{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 10%;
+
+}
+.about_us img{
+    height: 400px;
+    width: 350px;
+    border-radius: 10%;
+    margin-right: 10px;
+
+}
+.about_us p{
+    height: 400px;
+    width: 700px;
+    padding-left: 10px;
+
+}
